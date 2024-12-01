@@ -8,14 +8,8 @@ import (
 	"strconv"
 )
 
-// 3   4
-// 4   3
-// 2   5
-// 1   3
-// 3   9
-// 3   3
 func main() {
-	file, err := os.Open("./day1Data/leftList.csv")
+	file, err := os.Open("./day1Data/day1.csv")
 
 	if err != nil {
 		fmt.Println("ERROR", err)
